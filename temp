@@ -1,0 +1,1 @@
+ <Exec Command="&quot;$(Registry:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Microsoft SDKs\NETFXSDK\4.6.2\WinSDK-NetFx40Tools-x86\@InstallationFolder)\xsd.exe&quot; &quot;$(ProjectDir)\temp.xsd&quot; /c /out:.\ /n:temp" />
