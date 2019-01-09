@@ -1,1 +1,16 @@
- <Exec Command="&quot;$(Registry:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Microsoft SDKs\NETFXSDK\4.6.2\WinSDK-NetFx40Tools-x86\@InstallationFolder)\xsd.exe&quot; &quot;$(ProjectDir)\temp.xsd&quot; /c /out:.\ /n:temp" />
++Definition of Done (DoD):+
+
+(Status: (x) To-Do / No, (-) In progress, (/) Done / Yes)
+||Criteria||Applicable?||Status - Done?||Comments||
+|All User Story specific requirements are fully implemented|(/)|(/)| Sub-tasks are all completed|
+|All Unit Tests related to User Story are passed|(/)|(/)|Unit testing is performed and passed|
+|All Acceptance Criteria for User Story are fulfilled|(/)|(/)| |
+|Component Integration Tests for User Story are implemented and executed according to coverage criteria in the test plan.|(x)|(x)|Not Applicable|
+|No highest and high defects must be open according to the user story. Medium severity defects must be triaged and approved by Product Manager to be resolved/remain open at the time of marking the User Story as Done |(x)|(x)|Not Applicable - as this is Development-Only story|
+|Issues identified during EMV 6.0.1 testing that requires changes in the Application (91x or NDx) should be triaged with Product Manager in order to mark a User Story as Done. Such issues should be treated as out-of-scope of EMV 6.0.1 release.|(x)|(x)|Not Applicable - as this is Development-Only story|
+|Code checked into source code management system and built |(/)|(/)| Code delivered and built in latest submittal|
+|Technical documentation as input for product-documentation & -description is available and reviewed |(/)|(/)| Tech doc changes have been provided to the tech team, pending publication|
+|All newly used or updated Open Source Components are accepted by Legal|(/)|(/)| No new open source|
+|Installation Packages are available and used for tests|(/)|(/)| Package is available on FPL - Product # PBKCAKQNGGGRDQ|
+|Code review for User Story executed and approved|(/)|(/)| Code reviewed by Ashu and Mantosh|
+|Deliverable meets the secured development guidelines |(/)|(/)| Security scan completed and recommended changes made. |
